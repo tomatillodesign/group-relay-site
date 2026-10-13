@@ -13,8 +13,8 @@ the private `group-relay` repo; the admin app runs at app.group-relay.org.
 
 - [x] Pages built, Oct 13, 2026
 - [x] GitHub repo (public; Pages needs it), Pages on (main, `/`), Oct 13: https://tomatillodesign.github.io/group-relay-site/
-- [ ] Hover DNS: apex A → 185.199.108.153 / .109.153 / .110.153 / .111.153 (replacing Hover
+- [x] Hover DNS (Oct 13): apex A → 185.199.108.153 / .109.153 / .110.153 / .111.153 (replacing Hover
       parking 216.40.34.41); delete the wildcard `*` A; `www` CNAME → `tomatillodesign.github.io`.
       **Leave MX, bounce, _dmarc, app and the DKIM CNAMEs alone.**
-- [ ] Custom domain set in Pages, HTTPS enforced
+- [x] Custom domain set in Pages, HTTPS enforced Oct 13 (cert needed the remove/re-add trick, same as iglesiacda; Let's Encrypt, auto-renews)
 - [x] hello@ and privacy@ forward to Chris like postmaster@ and abuse@ (group-relay repo, Oct 13)
